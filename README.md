@@ -8,15 +8,34 @@ While I share how I compiled, Karl-Heinz Kübbeler (kubi48) TransistorTester 1.1
 
 How to install Linux on Windows with WSL  https://learn.microsoft.com/en-us/windows/wsl/install
 
-After Installing you can access you linux drive with Windows Explorer. I created short cuts on my desktop
+After Installing you can access you linux drive with Windows Explorer. 
+to get your folder in windows   Open Windows and in adress bar Tye or paste 
+
+\\wsl.localhost\Ubuntu-22.04\home
+
+Click on your user name.
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/5a1bf84c-d15b-402b-bbc3-c9f6c75c6f13)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/3b2a1827-d8cf-433f-851a-733fb2520d7f)
+
+I created short cuts on my desktop
 example   \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ComponentTester-1.51m
+
+right click your desktop and selecy " create shortcut  and paste your folder path click ok. Now you can get fast access to work with the Files and folders without all the learning to do this on Ubunti Linux. 
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1bb7b9e7-19a8-49ff-a55c-2c3ea5a75cdb)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/e0560164-a69c-4572-a61e-43576e131704)
+
+
+
+
+I did all the code working in Windows Explorer , coping the files and folders to \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ and only used linux to run (make) 
+One issues is, always refrech Windows Explorer to update the files before coping them to your firmware uploader.
 
 ![GM328A_Programing_Setup](https://github.com/carl1961/New-GM328A/assets/3056821/3a151028-bf4d-4c7c-a00e-a6f73a3b285a)
 
-
-I did all the code working in Windows Explorer , coping the files and folders to \\wsl.localhost\Ubuntu-22.04\home\carl\AY-AT\ and only used linux to run (make) 
-One issues is, always refrech Windows Explorer to update the files before coping them to your firmware uploader. I used 
-the latest AVRDUDESS which is called version AVRDUDESS 2.6 on theier web site. I have a compiled copy here on github.
+I used the latest AVRDUDESS which is called version AVRDUDESS 2.6 on theier web site. I have a compiled copy here on github.
 
 https://github.com/ZakKemble/AVRDUDESS    
 
