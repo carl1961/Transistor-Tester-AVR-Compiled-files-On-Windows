@@ -64,13 +64,11 @@ so copy and paste these next comands. I already have installed all these so your
 sudo apt-get update
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/8295bdc1-2002-4404-8dd3-ad4cf77e1996)
-
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/da4e0c17-4b8c-4f47-8c2c-e0f2fbc035e0)
 
 sudo apt-get install build-essential pkg-config git libusb-1.0-0-dev
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1b2729be-5d2f-4ebf-889d-7331316fa614)
-
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/8a06a3b8-4730-4033-9496-0ebb6f96565c)
 
 # Installing AVR
