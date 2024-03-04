@@ -1,5 +1,5 @@
 # Transistor-Tester-AVR-Compiled-files-On-Windows
-WinAVR Alternative, Compile  files On Windows Windows Subsystem for Linux (Ubunti Jammy)
+WinAVR Alternative, Compile  files On Windows Windows Subsystem for Linux (Ubunti Jammy)  WSL2
 
 While I share how I compiled, Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k and also Markus Reschke (madires) ComponentTester 1.51m, You may explore diffrent way's. Please feel free to share your way's and perhaps better way's.
 
