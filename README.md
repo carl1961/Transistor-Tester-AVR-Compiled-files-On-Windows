@@ -106,4 +106,24 @@ sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/22a2df0c-e2d2-426c-8bba-35b276cf2c46)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/620a637e-081d-4598-9bce-e2651e84b5bd)
 
+# Downgrading AVR  
+sudo apt-get purge gcc-avr
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b4964c1d-ece2-4938-af6a-9e37f46d6518)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/48d34581-5e9c-4686-8c76-3d8186eabb69)
+
+# gcc-avr 5.4.0
+
+sudo apt-get install binutils gcc-avr 5.4.0
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b0b4e24e-f323-4a33-9777-05d529904b94)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/419526eb-bb0b-4e5e-89d5-f602941e26a0)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/25cc9cf7-fddd-40a4-9b6a-842e219df3cd)
+
+avr-gcc --version
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/9441051e-6252-41ea-bfa6-c48472c45df0)
+
+
+
 
