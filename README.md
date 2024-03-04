@@ -22,7 +22,8 @@ Click on your user name.
 I created short cuts on my desktop
 example   \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ComponentTester-1.51m
 
-right click your desktop click NEW and select " create shortcut 
+right click your desktop click NEW and select " Shortcut
+
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/e7c87e9a-068f-4432-bd3a-b28f6365504d)
 
 and paste your folder path click ok. Now you can get fast access to work with the Files and folders without all the learning to do this on Ubunti Linux. 
