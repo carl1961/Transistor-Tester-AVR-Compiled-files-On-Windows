@@ -4,7 +4,7 @@ WinAVR Alternative, Compile  files On Windows Windows Subsystem for Linux (Ubunt
 While I share how I compiled, Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k and also Markus Reschke (madires) ComponentTester 1.51m, You may explore diffrent way's. Please feel free to share your way's and perhaps better way's.
 
 
-How I Compiled files On Windows 11 Windows Subsystem for Linux (Ubunti Jammy)
+# How to Compiled files On Windows 11 (10) Windows Subsystem for Linux (Ubunti Jammy)
 
 How to install Linux on Windows with WSL  https://learn.microsoft.com/en-us/windows/wsl/install
 
@@ -14,26 +14,31 @@ example   \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ComponentTester-1.51
 ![GM328A_Programing_Setup](https://github.com/carl1961/New-GM328A/assets/3056821/3a151028-bf4d-4c7c-a00e-a6f73a3b285a)
 
 
-I did all the code working in Windows Explorer and only used linux to run (make) 
+I did all the code working in Windows Explorer , coping the files and folders to \\wsl.localhost\Ubuntu-22.04\home\carl\AY-AT\ and only used linux to run (make) 
 One issues is, always refrech Windows Explorer to update the files before coping them to your firmware uploader. I used 
 the latest AVRDUDESS which is called version AVRDUDESS 2.6 on theier web site. I have a compiled copy here on github.
 
 https://github.com/ZakKemble/AVRDUDESS    
 
+Download your files needed and unpack them , I use 7-zip  https://7-zip.org/
 
-I greated a GitHub and uploaded the files needed all unpacked and ready.
 
-
-Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k    and also  Markus Reschke (madires) ComponentTester 1.51m
+# Karl-Heinz Kübbeler (kubi48) TransistorTester (1.13k)   
 
 https://github.com/kubi48/TransistorTester-source
 
 https://www.mikrocontroller.net/articles/AVR_Transistortester
 
+
+# Markus Reschke (madires) ComponentTester (1.51m)
+
 https://github.com/madires/Transistortester-Warehouse
 
+# Great Reading here
+
+https://www.mikrocontroller.net/topic/transistortester-avr?page=1
+
 https://www.eevblog.com/forum/testgear/$20-lcr-esr-transistor-checker-project/
-Great Reading here
 
 https://github.com/madires/Transistortester-Warehouse/blob/master/Documentation/English/FAQ.Feliciano.pdf
 
@@ -44,12 +49,41 @@ https://github.com/madires/Transistortester-Warehouse/blob/master/Documentation/
 
 
 # Setting up System
+In windows search in task bar type u and click on Ubuntu-22.04
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/87053217-ff29-4ee4-b4eb-002163035401)
+
+You get the Ubuntu console 
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/bf2a6ced-b046-462f-831c-f17921575cbc)
+
+What's great here is windows copy and paste works in your Ubuntu, so you cand copy and paste these comands and not have to type them all out.
+so copy and paste these next comands. I already have installed all these so your screen will be diffrent, you will most likly need to press Y for YES to update and install files.
+
 
 sudo apt-get update
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/8295bdc1-2002-4404-8dd3-ad4cf77e1996)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/da4e0c17-4b8c-4f47-8c2c-e0f2fbc035e0)
 
 sudo apt-get install build-essential pkg-config git libusb-1.0-0-dev
 
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1b2729be-5d2f-4ebf-889d-7331316fa614)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/8a06a3b8-4730-4033-9496-0ebb6f96565c)
+
+# Installing AVR
+
 sudo apt-get update
 
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/323f9bac-2d5c-4b11-8994-26da69f136e9)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/18c4e6a1-5e66-422a-a5fd-b3973760c9b3)
+
+
 sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/22a2df0c-e2d2-426c-8bba-35b276cf2c46)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/620a637e-081d-4598-9bce-e2651e84b5bd)
+
 
