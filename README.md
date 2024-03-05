@@ -138,7 +138,7 @@ Click on Code and then Download Zip to your prefered folder.
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/19be4bf4-1d54-4ad0-8b34-e446846b5c94)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/02f65adf-dcd7-4551-ba93-c6b02d2cfb86)
 
-Unzip (unpack) TransistorTester-source-master.zip I use 7-zip for tar files
+Unzip (unpack) TransistorTester-source-master.zip  
 
 You can double click  TransistorTester-source-master.zip to Unzip ZIP file with Windows or right click Zip file and move mouse pointer to 7-zip 
 then to right to  Extrack to "TransistorTester-source-master\"  (win 10) with windows 11 you need to right click, select Show more options and 
@@ -180,6 +180,53 @@ make
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/148654d4-e5f4-4fda-9905-1139cc86028c)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/f3957547-1e03-4812-8e14-9346173d76f4)
 
+
+# Compiling  ComponentTester (1.51m)
+
+
+From windows download Markus Reschke (madires) ComponentTester  files from https://github.com/madires/Transistortester-Warehouse
+
+Click on Code and then Download Zip to your prefered folder.
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/7d4a920f-1b36-4ffc-9de5-dd129a3f03dc)
+
+Unzip (unpack) Transistortester-Warehouse-master.zip    
+
+You can double click  Transistortester-Warehouse-master.zip to Unzip ZIP file with Windows or right click Zip file and move mouse pointer to 7-zip 
+then to right to  Extrack to "Transistortester-Warehouse-master\"  (win 10) with windows 11 you need to right click, select Show more options and 
+then move mouse pointer to 7-zip then to right to  Extrack to "Transistortester-Warehouse-master\"
+
+Go to Your unzipped Transistortester-Warehouse-master folder then \Transistortester-Warehouse-master\Firmware\m-firmware
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/d6b5f639-70d8-4c8f-877b-548d30d68281)
+
+This is where 7-zip is used to unpack the tar files
+
+right click ComponentTester-1.51m.tgz  file and move mouse pointer to 7-zip 
+then to right to  Extrack to "ComponentTester-1.51m\"  (win 10) with windows 11 you need to right click, select Show more options and 
+then move mouse pointer to 7-zip then to right to  Extrack to "ComponentTester-1.51m\"
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/f810119b-8be9-4b6d-98aa-034bda970cb2)
+
+We have to do this again for the tar file, go to the ComponentTester-1.51m Folder and Unpack ComponentTester-1.51m.tar
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1768cc92-6716-438d-9788-1a10ff70f608)
+
+Do this again , but with cap.c-1.51m.tgz  (cap.c fixed file) 
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/0c634878-9c90-4aca-9377-26af3f90fcdd)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/aa6b76a1-95f2-4261-9399-7e0a593d04dd)
+
+go to cap.c-1.51m folder and copy the cap.c file to ComponentTester-1.51m foler over writing the existing bad cap.c file
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/a5654643-6845-4d27-b1d2-e49385eac869)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1ca654aa-90e1-49dd-ade3-341ec4477333)
+
+
+right click  ComponentTester-1.51m folder copy and paste to folder to your Ubuntu home (username) folder
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/40d00a83-8bfb-4293-8608-39c2de51ca47)
 
 
 
