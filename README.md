@@ -12,12 +12,12 @@ After Installing you can access you linux drive with Windows Explorer.
 to get your folder in Windows Explorer   Open Windows Explorer and in address bar Type or paste 
 
 \\wsl.localhost\Ubuntu-22.04\home
+
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/3b2a1827-d8cf-433f-851a-733fb2520d7f)
 
 Click on your user name.
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/5a1bf84c-d15b-402b-bbc3-c9f6c75c6f13)
-
 
 I created short cuts on my desktop
 example   \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ComponentTester-1.51m
@@ -32,7 +32,6 @@ and paste your folder path click ok. Now you can get fast access to work with th
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/e0560164-a69c-4572-a61e-43576e131704)
 
-
 I did all the code working in Windows Explorer , coping the files and folders to \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ and only used linux to run (make) 
 One issues is, always refrech Windows Explorer to update the files before coping them to your firmware uploader.
 
@@ -44,13 +43,11 @@ https://github.com/ZakKemble/AVRDUDESS
 
 Download your files needed and unpack them , I use 7-zip  https://7-zip.org/
 
-
 # Karl-Heinz Kübbeler (kubi48) TransistorTester (1.13k)   
 
 https://github.com/kubi48/TransistorTester-source
 
 https://www.mikrocontroller.net/articles/AVR_Transistortester
-
 
 # Markus Reschke (madires) ComponentTester (1.51m)
 
