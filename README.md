@@ -71,6 +71,7 @@ https://github.com/madires/Transistortester-Warehouse/blob/master/Documentation/
 
 
 # Setting up System
+
 In windows search in task bar type u and click on Ubuntu-22.04
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/87053217-ff29-4ee4-b4eb-002163035401)
@@ -103,6 +104,7 @@ sudo apt-get update
 
 sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
 
+
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/22a2df0c-e2d2-426c-8bba-35b276cf2c46)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/620a637e-081d-4598-9bce-e2651e84b5bd)
 
@@ -125,6 +127,7 @@ avr-gcc --version
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/9441051e-6252-41ea-bfa6-c48472c45df0)
 
 sudo apt-get install binutils   avr-libc uisp avrdude
+
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b9f1dcf9-2d06-4c95-a428-d4942cbb6536)
 
@@ -156,7 +159,7 @@ Go to Your unzipped TransistorTester-source-master folder then right click copy 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1ea9c21f-c96a-4367-8829-ca753892d122)
 
 go to your Ubuntu trunk folder (we or still using Windows Explorer)
-make changes to your prefered Makefile  ( Do not mess with Makefile in trunk folder , use the Makefile in prefered firmware folder 
+make changes to your prefered Makefile  ( Do not mess with Makefile in trunk main folder , use the Makefile in prefered firmware folder 
 ex: mega328_color_kit folder
 
 I edit with Notepad++  https://notepad-plus-plus.org/
@@ -168,17 +171,20 @@ After your done making your changes Go to your Ubuntu Command prompt , or Start 
 
 copy paste this ( or type it out)
 
-cd  ~/trunk 
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/76310bcc-1125-4d1f-8689-c7df9fea4714)
+cd  ~/trunk/mega328_color_kit (or your prefered folder)
 
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/73ae4a3b-a7d8-459b-ae06-2c2a61910eeb)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/0b2dad27-4809-4bf4-bffd-40f1204f014f)
+
 
 then type 
 
 make  
 
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/7a59cae4-beb1-49ea-b771-4fc3559cd1b1)
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/390daf5f-2b9a-46bd-84fe-e6380cac1f92)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/148654d4-e5f4-4fda-9905-1139cc86028c)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/f3957547-1e03-4812-8e14-9346173d76f4)
+
+
+
 
 
 
