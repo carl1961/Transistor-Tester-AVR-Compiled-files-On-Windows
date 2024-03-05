@@ -124,6 +124,85 @@ avr-gcc --version
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/9441051e-6252-41ea-bfa6-c48472c45df0)
 
+sudo apt-get install binutils   avr-libc uisp avrdude
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b9f1dcf9-2d06-4c95-a428-d4942cbb6536)
+
+
+# Compiling TransistorTester (1.13k)
+
+From windows download Karl-Heinz Kübbeler (kubi48) TransistorTester files from  https://github.com/kubi48/TransistorTester-source
+
+Click on Code and then Download Zip to your prefered folder.
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/19be4bf4-1d54-4ad0-8b34-e446846b5c94)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/02f65adf-dcd7-4551-ba93-c6b02d2cfb86)
+
+Unzip (unpack) TransistorTester-source-master.zip I use 7-zip for tar files
+
+You can double click  TransistorTester-source-master.zip to Unzip ZIP file with Windows or right click Zip file and move mouse pointer to 7-zip 
+then to right to  Extrack to "TransistorTester-source-master\"  (win 10) with windows 11 you need to right click, select Show more options and 
+then move mouse pointer to 7-zip then to right to  Extrack to "TransistorTester-source-master\"
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/0b067522-6c5b-4e0a-bff4-fde5cf80e32c)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/f1db04c6-1364-4564-866d-647aae0652b3)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/f727475b-84b1-482c-a5a9-8bf59f0c235a)
+
+Go to Your unzipped TransistorTester-source-master folder then right click copy trunk folder to your Ubuntu home (username) folder 
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b8dbc0a8-df33-4f3f-a929-a06e33e8d73a)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/874dc0f0-7c88-44a6-8029-4e29686bc6dc)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/42cb26fb-370e-4160-a940-8bebc041554c)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1ea9c21f-c96a-4367-8829-ca753892d122)
+
+go to your Ubuntu trunk folder (we or still using Windows Explorer)
+make changes to your prefered Makefile  ( Do not mess with Makefile in trunk folder , use the Makefile in prefered firmware folder 
+ex: mega328_color_kit folder
+
+I edit with Notepad++  https://notepad-plus-plus.org/
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/17b4c531-27e6-44ae-a4aa-cafe551fd01f)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/7d64623c-bbf4-497d-aa15-f2bf1545e11c)
+
+I remove all builds I do not need to save build time (ones in blue)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/61b82cf5-0187-4591-a5af-c33acea6801a)
+
+After your done making your changes Go to your Ubuntu Command prompt , or Start Ubuntu 
+
+copy paste this ( or type it out)
+
+cd  ~/trunk 
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/76310bcc-1125-4d1f-8689-c7df9fea4714)
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/73ae4a3b-a7d8-459b-ae06-2c2a61910eeb)
+
+then type 
+
+make  
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/7a59cae4-beb1-49ea-b771-4fc3559cd1b1)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/390daf5f-2b9a-46bd-84fe-e6380cac1f92)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
