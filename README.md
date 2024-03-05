@@ -3,13 +3,12 @@ WinAVR Alternative, Compile  files On Windows Windows Subsystem for Linux (Ubunt
 
 While I share how I compiled, Karl-Heinz Kübbeler (kubi48) TransistorTester 1.13k and also Markus Reschke (madires) ComponentTester 1.51m, You may explore diffrent way's. Please feel free to share your way's and perhaps better way's.
 
-
 # How to Compiled files On Windows 11 (10) Windows Subsystem for Linux (Ubunti Jammy)
 
 How to install Linux on Windows with WSL  https://learn.microsoft.com/en-us/windows/wsl/install
 
-After Installing you can access you linux drive with Windows Explorer. 
-to get your folder in Windows Explorer   Open Windows Explorer and in address bar Type or paste 
+After Installing you can access you linux drive with Windows Explorer.  
+To get your Ubuntu folder in Windows Explorer   Open Windows Explorer and in address bar type or paste 
 
 \\wsl.localhost\Ubuntu-22.04\home
 
@@ -32,12 +31,10 @@ and paste your folder path click ok. Now you can get fast access to work with th
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/e0560164-a69c-4572-a61e-43576e131704)
 
-I did all the code working in Windows Explorer , coping the files and folders to \\wsl.localhost\Ubuntu-22.04\home\carl\New-GM328A\ and only used linux to run (make) 
+I do all the code working in Windows Explorer , Downloading firmware and coping the files and folders to Ubuntu Folder and only used linux to run (make) 
 One issues is, always refrech Windows Explorer to update the files before coping them to your firmware uploader.
 
-![GM328A_Programing_Setup](https://github.com/carl1961/New-GM328A/assets/3056821/3a151028-bf4d-4c7c-a00e-a6f73a3b285a)
-
-I used the latest AVRDUDESS which is called version AVRDUDESS 2.6 on theier web site. I have a compiled copy here on github.
+I used  AVRDUDESS tu update MCU
 
 https://github.com/ZakKemble/AVRDUDESS    
 
@@ -69,7 +66,7 @@ https://github.com/madires/Transistortester-Warehouse/blob/master/Documentation/
 
 # Setting up System
 
-In windows search in task bar type u and click on Ubuntu-22.04
+In windows search in task bar type u and click on Ubuntu-22.04 (I sent a shortcut to my task bar)
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/87053217-ff29-4ee4-b4eb-002163035401)
 
@@ -77,8 +74,8 @@ You get the Ubuntu console
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/bf2a6ced-b046-462f-831c-f17921575cbc)
 
-What's great here is windows copy and paste works in your Ubuntu, so you cand copy and paste these comands and not have to type them all out.
-so copy and paste these next comands. I already have installed all these so your screen will be diffrent, you will most likly need to press Y for YES to update and install files.
+What's great here is windows copy and paste works in your Ubuntu, so you can copy and paste these comands and not have to type them all out.
+so copy and paste these next comands. I already have installed all these so your screen will be slightly diffrent, you will most likly need to press Y for YES to update and install files.
 
 
 sudo apt-get update
@@ -98,14 +95,14 @@ sudo apt-get update
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/323f9bac-2d5c-4b11-8994-26da69f136e9)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/18c4e6a1-5e66-422a-a5fd-b3973760c9b3)
 
-
 sudo apt-get install binutils gcc-avr avr-libc uisp avrdude
-
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/22a2df0c-e2d2-426c-8bba-35b276cf2c46)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/620a637e-081d-4598-9bce-e2651e84b5bd)
 
 # Downgrading AVR  
+It has been found by those who know best that older releases compile using less memory. here you can removed AVR and install the 5.4.0
+
 sudo apt-get purge gcc-avr
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b4964c1d-ece2-4938-af6a-9e37f46d6518)
@@ -123,7 +120,7 @@ avr-gcc --version
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/9441051e-6252-41ea-bfa6-c48472c45df0)
 
-sudo apt-get install binutils   avr-libc uisp avrdude
+sudo apt-get install  avr-libc uisp avrdude
 
 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/b9f1dcf9-2d06-4c95-a428-d4942cbb6536)
