@@ -164,10 +164,6 @@ I edit with Notepad++  https://notepad-plus-plus.org/
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/17b4c531-27e6-44ae-a4aa-cafe551fd01f)
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/7d64623c-bbf4-497d-aa15-f2bf1545e11c)
 
-I remove all builds I do not need to save build time (ones in blue)
-
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/61b82cf5-0187-4591-a5af-c33acea6801a)
-
 After your done making your changes Go to your Ubuntu Command prompt , or Start Ubuntu 
 
 copy paste this ( or type it out)
