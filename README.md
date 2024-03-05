@@ -236,12 +236,38 @@ go to your Ubuntu ComponentTester-1.51m (we or still using Windows Explorer)
 
 make changes to your prefered files,  I edit with Notepad++  https://notepad-plus-plus.org/
 
+First edit Makefile and set your MCU and crystal MHz
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/9c2ea99d-48fc-4712-83ee-10cc0342957f)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/6590d6da-a9d9-4241-9af5-02459a4e1435)
+
+Also edit Your config MCU file you set in Makefile  ex: config_328.h
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/8cd5b97a-6441-4624-8fca-b40e75299a4f)
 
 After your done making your changes Go to your Ubuntu Command prompt , or Start Ubuntu 
 
 copy paste this ( or type it out)
 
-cd  ~/trunk/mega328_color_kit (or your prefered folder)
+cd  ~/ComponentTester-1.51m 
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/d807e96f-e9bd-4125-8801-71fce31d17ba)
+
+type make
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/19914791-a4c4-43ab-868f-56dfd637acbe)
+
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/23c01c76-e4a3-46d6-8c67-561238fb31f8)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/0e5d4330-6d5b-402b-a8dd-54514eefa952)
+
+
+Upload file to MCU with Your prefered Loader  I used AVRDUDESS 2.7
+
+I copy my firmware  files to a folder and point AVRDUDESS to them, I never messed with any fuses, I leave what AVRDUDESS detects
+
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/856e1992-250a-437c-995f-0ad358f0f5db)
+
+
+
 
 
 
