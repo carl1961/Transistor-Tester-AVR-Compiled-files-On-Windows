@@ -224,9 +224,30 @@ go to cap.c-1.51m folder and copy the cap.c file to ComponentTester-1.51m foler 
 ![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/1ca654aa-90e1-49dd-ade3-341ec4477333)
 
 
+
 right click  ComponentTester-1.51m folder copy and paste to folder to your Ubuntu home (username) folder
 
-![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/40d00a83-8bfb-4293-8608-39c2de51ca47)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/c9c52aa2-ac36-428a-bf04-dc30ff0f7809)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/a6284a6c-0ae3-4bad-83ba-837fc7c4937e)
+![image](https://github.com/carl1961/Transistor-Tester-AVR-Compiled-files-On-Windows/assets/3056821/e5317b55-606b-48c5-88c7-a96c7e6b9e28)
+
+
+go to your Ubuntu ComponentTester-1.51m (we or still using Windows Explorer)
+
+make changes to your prefered files,  I edit with Notepad++  https://notepad-plus-plus.org/
+
+
+After your done making your changes Go to your Ubuntu Command prompt , or Start Ubuntu 
+
+copy paste this ( or type it out)
+
+cd  ~/trunk/mega328_color_kit (or your prefered folder)
+
+
+
+
+
+
 
 
 
